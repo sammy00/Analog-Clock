@@ -29,8 +29,6 @@ hours.innerHTML = h;
 minute.innerHTML =m;
 seconds.innerHTML=s;
 AMPM.innerHTML=am;
-hr.style.transform = `rotateZ(${m * 30}deg)`;
-
-
+hr.style.transform = `rotateZ(${h * 30}deg)`;
 
 })
